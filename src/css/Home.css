@@ -1,0 +1,36 @@
+.home {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .home__slider-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 40vh;
+    position: relative;
+    border-radius: 0.5rem;
+  }
+  
+  .home__slide {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    transition: all 0.25s ease-in-out;
+    text-align: center;
+  }
+  
+  .home__image {
+      width: 100%;
+      z-index: -1;
+      margin-bottom: -150px;
+      mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+      transition: all 0 ease-in-out;
+  }
+  
+  .home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
